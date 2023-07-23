@@ -213,9 +213,10 @@ export default {
             labClicked: false,
             immunizationClicked: false,
             clientId: "d817a94d-17f6-41b7-99ac-75e7f2306a80", // Replace with your client id 42f3b173-16a8-4c50-a3ea-0269294cb869
-            redirect: import.meta.env.PROD
-                ? "https://lucid-wozniak-940eae.netlify.app"
-                : "http://localhost:3000",
+            redirect: "https://manila-h-d19e0bd964be.herokuapp.com"
+            // import.meta.env.PROD
+            //     ? "https://manila-h-d19e0bd964be.herokuapp.com"
+            //     : "http://localhost:3000",
         };
     },
     computed: {
@@ -417,7 +418,7 @@ export default {
             }
         },
         logout(){
-            location.href = "http://localhost:3000";
+            location.href = this.redirect;
         }
     }
 }
