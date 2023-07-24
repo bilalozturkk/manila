@@ -1,5 +1,4 @@
 <template>
-    <h1>Bilal</h1>
     <div v-if="this.code !== undefined">
         <div class="container">
             <div class="jumbotron text-center bg-light">
@@ -214,7 +213,7 @@ export default {
             labClicked: false,
             immunizationClicked: false,
             clientId: "d817a94d-17f6-41b7-99ac-75e7f2306a80", // Replace with your client id 42f3b173-16a8-4c50-a3ea-0269294cb869
-            redirect: "https://64bd9ef13be6e3650d4cc2ae--taupe-moonbeam-7c2195.netlify.app"
+            redirect: "https://main--taupe-moonbeam-7c2195.netlify.app"
         };
     },
     computed: {
